@@ -1,36 +1,36 @@
 import React from 'react'
-import { Shield, Cloud, Lock, Code, Search, Network } from 'lucide-react'
+import { BarChart3, Rocket, Megaphone, ShoppingCart, LineChart, Wrench } from 'lucide-react'
 
 const items = [
   {
-    icon: Shield,
-    title: 'Security Audits',
-    desc: 'End-to-end assessments, threat modeling and remediation plans that harden your stack.'
+    icon: Rocket,
+    title: 'Marketplace Launch',
+    desc: 'End-to-end onboarding on Amazon, Flipkart, Myntra and more — catalog, GST/brand registry, storefronts.'
   },
   {
-    icon: Cloud,
-    title: 'Cloud Architecture',
-    desc: 'Design and migration to scalable, resilient cloud-native infrastructure.'
+    icon: Megaphone,
+    title: 'Advertising & Promotions',
+    desc: 'Full-funnel PPC and deal strategy: Sponsored Ads, coupons, Lightning Deals, festive playbooks.'
   },
   {
-    icon: Lock,
-    title: 'AppSec & DevSecOps',
-    desc: 'Secure SDLC pipelines, SAST/DAST integration and policy-as-code.'
+    icon: ShoppingCart,
+    title: 'Catalog & Listing Optimization',
+    desc: 'SEO-rich titles, A+ content, image/video creatives, variation strategy, keyword indexing.'
   },
   {
-    icon: Code,
-    title: 'Product Engineering',
-    desc: 'Modern web and mobile apps built with performance and accessibility in mind.'
+    icon: BarChart3,
+    title: 'Operations & Compliance',
+    desc: 'FBA/Smart Fulfillment, returns/SLA management, pricing/fees, account health and policy compliance.'
   },
   {
-    icon: Search,
-    title: 'Vulnerability Research',
-    desc: 'Continuous scanning, pentesting and real-time monitoring with clear reporting.'
+    icon: LineChart,
+    title: 'Analytics & Growth',
+    desc: 'Dashboards and cohort insights to drive CRR, ROAS, and contribution margin — weekly growth sprints.'
   },
   {
-    icon: Network,
-    title: 'Enterprise Networking',
-    desc: 'Zero-trust networks, VPN, SSO, identity and access management at scale.'
+    icon: Wrench,
+    title: 'Storefront & Brand Building',
+    desc: 'Brand Stores, storefront UX, storefront analytics, reviews/ratings program and CRM workflows.'
   }
 ]
 
@@ -41,7 +41,7 @@ export default function Services() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-white">What we do</h2>
-          <p className="mt-3 text-white/70">Practical, well-documented solutions delivered with a minimalist, polished touch.</p>
+          <p className="mt-3 text-white/70">Practical, revenue-focused marketplace operations to launch, scale, and sustain growth.</p>
         </div>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
